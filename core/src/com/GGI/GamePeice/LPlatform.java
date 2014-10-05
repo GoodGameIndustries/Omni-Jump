@@ -8,7 +8,7 @@ public class LPlatform extends Platform{
 
 	public LPlatform(Vector2 pos) {
 		super(pos);
-		face = new Texture(Gdx.files.internal("LpFace")); side = new Texture(Gdx.files.internal("LpSide"));
+		face = new Texture(Gdx.files.internal("LpFace.png")); side = new Texture(Gdx.files.internal("LpSide.png"));
 	}
 
 }

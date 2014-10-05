@@ -8,7 +8,7 @@ public class RPlatform extends Platform{
 
 	public RPlatform(Vector2 pos) {
 		super(pos);
-		face = new Texture(Gdx.files.internal("RpFace")); side = new Texture(Gdx.files.internal("RpSide"));
+		face = new Texture(Gdx.files.internal("RpFace.png")); side = new Texture(Gdx.files.internal("RpSide.png"));
 	}
 
 }

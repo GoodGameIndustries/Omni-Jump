@@ -15,7 +15,7 @@ public class UPlatform extends Platform{
 
 	public UPlatform(Vector2 pos) {
 		super(pos);
-		face = new Texture(Gdx.files.internal("UpFace")); side = new Texture(Gdx.files.internal("UpSide"));
+		face = new Texture(Gdx.files.internal("UpFace.png")); side = new Texture(Gdx.files.internal("UpSide.png"));
 	}
 
 }

@@ -15,7 +15,7 @@ import com.badlogic.gdx.math.Vector2;
 public class Platform {
 	
 	
-	protected Texture face = new Texture(Gdx.files.internal("pFace")), side = new Texture(Gdx.files.internal("pSide"));
+	protected Texture face = new Texture(Gdx.files.internal("pFace.png")), side = new Texture(Gdx.files.internal("pSide.png"));
 	protected Vector2 pos;
 	protected Rectangle bounds;
 	

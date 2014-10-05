@@ -8,7 +8,7 @@ public class DPlatform extends Platform{
 
 	public DPlatform(Vector2 pos) {
 		super(pos);
-		face = new Texture(Gdx.files.internal("DpFace")); side = new Texture(Gdx.files.internal("DpSide"));
+		face = new Texture(Gdx.files.internal("DpFace.png")); side = new Texture(Gdx.files.internal("DpSide.png"));
 	}
 
 }
